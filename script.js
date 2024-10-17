@@ -14,20 +14,20 @@ const confirmErr = document.getElementById('confirmErr');
 showPass.addEventListener('click', function () {
     if (pass.type === 'password') {
         pass.type = 'text';
-        showPass.src = 'hide.png';
+        showPass.src = 'images/hide.png';
     } else {
         pass.type = 'password';
-        showPass.src = 'show.png';
+        showPass.src = 'images/show.png';
     }
 });
 
 showConfirm.addEventListener('click', function () {
     if (confirm.type === 'password') {
         confirm.type = 'text';
-        showConfirm.src = 'hide.png';
+        showConfirm.src = 'images/hide.png';
     } else {
         confirm.type = 'password';
-        showConfirm.src = 'show.png';
+        showConfirm.src = 'images/show.png';
     }
 });
 
