@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Sign-Up Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Sign Up</h2>
+        <form id="signUpForm">
+            <div class="form-group">
+                <label for="user">Username</label>
+                <input type="text" id="user" placeholder="Enter your username">
+                <p id="userErr" class="error"></p>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Enter your email">
+                <p id="emailErr" class="error"></p>
+            </div>
+
+            <div class="form-group password-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password">
+                <img src="show.png" id="showPassword" class="icon" alt="Show/Hide Password">
+                <p id="passErr" class="error"></p>
+            </div>
+
+            <div class="form-group password-group">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" placeholder="Confirm your password">
+                <img src="show.png" id="showConfirmPassword" class="icon" alt="Show/Hide Confirm Password">
+                <p id="confirmErr" class="error"></p>
+            </div>
+
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
